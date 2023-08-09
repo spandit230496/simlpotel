@@ -1,0 +1,237 @@
+ body {
+    padding: 0;
+    margin: 0;
+}
+
+/* .container {
+    height : 100%;
+    width : 100%;
+    margin-bottom: 80px;
+} */
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.nav-container {
+    display: flex;
+    /* flex-direction: column ; */
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    /* border: 1px solid red ; */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    padding: 12px;
+    /* Set the desired letter spacing */
+}
+
+.nav-centre {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 380px;
+    gap: 50px;
+}
+
+.nav-centre a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+}
+.nav-centre a:hover{
+    color: #54545b; 
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+img {
+    width: 99vw;
+    height: 98vh;
+}
+
+
+
+.centered {
+    
+    position: absolute;
+    left: 86px;
+    top: 250px;
+    margin: 20px;
+    width: 650px;
+    /* background-color: rgb(228, 112, 131); */
+    color: white;
+    background-color: rgba(230, 98, 120, 0.5);
+    /* Set the desired transparency using rgba */
+    display: inline-block;
+    /* or block, depending on your layout needs */
+    color: #ffffff;
+    /* Set the text color */
+    padding: 50px;
+    /* Add padding to the div for spacing */
+}
+
+.centered .heading {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.para {
+    font-size: 20px;
+    padding: 20PX;
+}
+
+
+/*  OrderPage Styling */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.menu{
+    display: none;
+}
+body {
+    background: rgb(217, 51, 250);
+    background: linear-gradient(90deg, rgba(217, 51, 250, 0.8632703081232493) 9%, rgba(255, 177, 92, 1) 61%, rgba(233, 203, 87, 0.6055672268907564) 94%);
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 0px;
+
+}
+
+.main_title {
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    font-family: cursive;
+    font-family: math;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.card-main-text {
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: grid;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 8rem;
+}
+
+.cards_item {
+    display: flex;
+}
+
+.card_image {
+    display: flex;
+    height: 350px;
+    padding: 30px;
+
+}
+
+.card_image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1px 65px 1px 1px;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 1px 65px 1px 65px;
+    transition: transform 0.1s linear, box-shadow 0.2s;
+}
+
+
+.card_content {
+    padding: 0.5rem 1rem 1rem;
+    color: #fff;
+}
+
+.card_title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: auto;
+    color: #000;
+    padding: 0.5rem;
+    border-radius: 5px 0 0 5px;
+    transform: rotate(-3.3deg);
+    transform-origin: left top;
+    font-family: Georgia, Times, serif;
+    font-weight: 600;
+    font-size: 1.325rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.order_btn {
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+    padding: 20px;
+
+}
+
+.order {
+    background-color: rgb(255, 251, 251, 0.5);
+    padding: 15px 57px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    letter-spacing: 3px;
+}
+
+.card_text {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
+        Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    text-size-adjust: 0.2px;
+    color: #000;
+    padding: 0 1rem;
+    align-items: center;
+    justify-self: center;
+}
+
+
+
+
